@@ -46,6 +46,10 @@ body{
     font-size: 2.7rem;
 }
 
+.medium-headline{
+    font-size: 1.7rem;
+}
+
 .mr-20{
     margin-right: 20px;
 }
@@ -78,6 +82,10 @@ body{
     background-color: rgba(247,247,246,255);
 }
 
+.bg-violet{
+    background-color: #8ea1e1;
+}
+
 
 
 /* header */
@@ -100,12 +108,14 @@ header{
 
 div.menu-list .menu li{
     display: inline;
-}
-
-div.menu-list .menu li a{
-    text-decoration: none;
     margin:10px;
     padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
 
 }
 
@@ -154,4 +164,19 @@ section{
     padding-top: 25px;
 
 }
+
+.big-section{
+    text-align: center;
+}
+
+.big-section-headline{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.img-big-section{
+    width: 100%;
+}
+
+
 
