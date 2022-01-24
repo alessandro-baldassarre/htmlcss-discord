@@ -27,6 +27,10 @@ body{
     float: left;
 }
 
+.float-right{
+    float: right;
+}
+
 .text-white{
     color: white;
 }
@@ -54,12 +58,24 @@ body{
     margin-top: 20px;
 }
 
+.pr-90{
+    padding-right: 90px;
+}
+
+.pl-90{
+    padding-left: 90px;
+}
+
 .bg-black{
     background-color: black;
 }
 
 .normal-text{
     line-height: 1.5rem;
+}
+
+.bg-gray{
+    background-color: rgba(247,247,246,255);
 }
 
 
@@ -127,7 +143,6 @@ section{
 
 .section-image{
     width: 67%;
-    padding-right: 90px;
 }
 
 .section-image img{
