@@ -31,10 +31,6 @@ body{
     float: right;
 }
 
-.text-white{
-    color: white;
-}
-
 .btn{
     padding: .7rem 1.4rem;
     border-radius: 40px;
@@ -70,6 +66,7 @@ body{
     padding-left: 90px;
 }
 
+
 .bg-black{
     background-color: black;
 }
@@ -78,12 +75,28 @@ body{
     line-height: 1.5rem;
 }
 
+.text-small{
+    font-size: 14px;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-violet{
+    color: #8ea1e1;
+}
+
 .bg-gray{
     background-color: rgba(247,247,246,255);
 }
 
 .bg-violet{
     background-color: #8ea1e1;
+}
+
+.bg-black{
+    background-color: #23272a;
 }
 
 
@@ -178,5 +191,38 @@ section{
     width: 100%;
 }
 
+/* footer */
 
+footer .top-footer{
+    padding: 50px 0 20px 0;
+    border-bottom: 1px solid #8ea1e1;
+}
 
+footer .info-box{
+    padding-right: 40px;
+    width: 30%;
+
+}
+
+footer .footer-list{
+    width: calc(70% / 4);
+
+}
+
+.info-box img{
+    width: 24px;
+    vertical-align: bottom;
+}
+
+ul.footer-menu li{
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+div.bottom-footer{
+    
+    text-align: center;
+    line-height: 80px;
+    padding-bottom: 50px;
+
+}
