@@ -1,230 +1,238 @@
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+/* tag selectors */
+
+body {
     font-family: 'Whitney', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    height: 80px;
+    background-color: rgba(48, 96, 224, 255);
+    text-align: center;
+    line-height: 80px;
+}
+
+section {
+    padding: 120px 0;
 }
 
 /* common classes */
 
-.container{
+.container {
     width: 70%;
     margin: 0 auto;
 
 }
 
-.clear-fix::after{
+.clear-fix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.float-left{
+.float-left {
     float: left;
 }
 
-.float-right{
+.float-right {
     float: right;
 }
 
-.btn{
+.btn {
     padding: .7rem 1.4rem;
     border-radius: 40px;
     border: none;
     background-color: white;
+    cursor: pointer;
+    
 }
 
-.big-headline{
-    font-size: 2.7rem;
+.btn:hover {
+    opacity: 0.8;
 }
 
-.medium-headline{
-    font-size: 1.7rem;
+.btn:active{
+    opacity: 0.4;
+    
 }
 
-.mr-20{
-    margin-right: 20px;
-}
-
-.mr-10{
-    margin-right: 10px;
-}
-
-.mt-20{
-    margin-top: 20px;
-}
-
-.pr-90{
-    padding-right: 90px;
-}
-
-.pl-90{
-    padding-left: 90px;
-}
-
-
-.bg-black{
-    background-color: black;
-}
-
-.normal-text{
-    line-height: 1.5rem;
-}
-
-.text-small{
+.btn-small {
     font-size: 14px;
 }
 
-.text-white{
+.btn-big {
+    font-size: 18px;
+}
+
+.big-headline {
+    font-size: 2.7rem;
+}
+
+.medium-headline {
+    font-size: 1.7rem;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.pr-90 {
+    padding-right: 90px;
+}
+
+.pl-90 {
+    padding-left: 90px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.normal-text {
+    line-height: 1.5rem;
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+.text-white {
     color: white;
 }
 
-.text-violet{
+.text-violet {
     color: #8ea1e1;
 }
 
-.bg-gray{
-    background-color: rgba(247,247,246,255);
+.bg-gray {
+    background-color: rgba(247, 247, 246, 255);
 }
 
-.bg-violet{
+.bg-violet {
     background-color: #8ea1e1;
 }
 
-.bg-black{
+.bg-black {
     background-color: #23272a;
 }
 
 
 
 /* header */
-
-header{
-    height: 80px;
-    background-color: rgba(48,96,224,255);
-    text-align: center;
-    line-height: 80px;
-}
-
-.logo img{
+.logo img {
     vertical-align: middle;
 
 }
 
-.menu-list{
+.menu-list {
     width: calc(100% - (124px + 86.81px));
 }
 
-div.menu-list .menu li{
+div.menu-list .menu li {
     display: inline;
-    margin:10px;
+    margin: 10px;
     padding: 10px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    
-
-}
-
-.btn-small{
-    font-size: 14px;
-}
-
-.btn-big{
-    font-size: 18px;
-}
-
 /* jumbotron */
-.jumbotron{
+.jumbotron {
     background-image: url("../img/jumbo.png");
     background-size: cover;
     padding: 120px 0;
 
 }
 
-.jumbotron-items-wrapper{
+.jumbotron-items-wrapper {
     margin: 0 auto;
     text-align: center;
     width: 42%;
 }
 
-.jumbotron-text{
+.jumbotron-text {
     margin: 40px 0 20px;
 }
 
 /* main */
-
-section{
-    padding: 120px 0;
-}
-
-.section-image{
+.section-image {
     width: 67%;
 }
 
-.section-image img{
+.section-image img {
     width: 100%;
 }
 
-.section-text{
+.section-text {
     width: 33%;
     padding-top: 25px;
 
 }
 
-.big-section{
+.big-section {
     text-align: center;
 }
 
-.big-section-headline{
+.big-section-headline {
     width: 90%;
     margin: 0 auto;
 }
 
-.img-big-section{
+.img-big-section {
     width: 100%;
 }
 
 /* footer */
-
-footer .top-footer{
+footer .top-footer {
     padding: 50px 0 20px 0;
     border-bottom: 1px solid #8ea1e1;
 }
 
-footer .info-box{
+footer .info-box {
     padding-right: 40px;
     width: 30%;
 
 }
 
-footer .footer-list{
+footer .footer-list {
     width: calc(70% / 4);
 
 }
 
-.info-box img{
+.info-box img {
     width: 24px;
     vertical-align: bottom;
 }
 
-div.social i{
+div.social i {
     font-size: 16px;
 }
 
-ul.footer-menu li{
+ul.footer-menu li {
     list-style-type: none;
     line-height: 2rem;
 }
 
-div.bottom-footer{
-    
+div.bottom-footer {
+
     text-align: center;
     line-height: 80px;
     padding-bottom: 50px;
