@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Whitney', sans-serif;
+    min-width: 600px;
 }
 
 
@@ -19,7 +20,7 @@ a {
 
 header {
     height: 80px;
-    background-color: rgba(48, 96, 224, 255);
+    background-color: #255EE8;
     text-align: center;
     line-height: 80px;
 }
