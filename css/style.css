@@ -5,12 +5,37 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Whitney', sans-serif;
+}
+
 /* common classes */
 
 .container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 
+}
+
+.clear-fix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
+.text-white{
+    color: white;
+}
+
+.btn{
+    padding: .5rem 1rem;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
 }
 
 
@@ -29,3 +54,24 @@ header{
     vertical-align: middle;
 
 }
+
+.menu-list{
+    width: calc(100% - (124px + 74.03px));
+}
+
+div.menu-list .menu li{
+    display: inline;
+}
+
+div.menu-list .menu li a{
+    text-decoration: none;
+    margin:10px;
+    padding: 10px;
+
+}
+
+.log-in-btn{
+    font-size: 14px;
+}
+
+
