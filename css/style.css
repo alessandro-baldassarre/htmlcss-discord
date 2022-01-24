@@ -32,12 +32,27 @@ body{
 }
 
 .btn{
-    padding: .5rem 1rem;
+    padding: .7rem 1.4rem;
     border-radius: 40px;
     border: none;
     background-color: white;
 }
 
+.big-headline{
+    font-size: 2.7rem;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.bg-black{
+    background-color: black;
+}
 
 
 
@@ -56,7 +71,7 @@ header{
 }
 
 .menu-list{
-    width: calc(100% - (124px + 74.03px));
+    width: calc(100% - (124px + 86.81px));
 }
 
 div.menu-list .menu li{
@@ -70,8 +85,30 @@ div.menu-list .menu li a{
 
 }
 
-.log-in-btn{
+.btn-small{
     font-size: 14px;
 }
 
+.btn-big{
+    font-size: 18px;
+}
+
+/* jumbotron */
+.jumbotron{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    padding: 120px 0;
+
+}
+
+.jumbotron-items-wrapper{
+    margin: 0 auto;
+    text-align: center;
+    width: 42%;
+}
+
+.jumbotron-text{
+    margin: 40px 0 20px;
+    line-height: 1.5rem;
+}
 
